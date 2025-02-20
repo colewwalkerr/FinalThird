@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" class="darkmode" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Final Third</title>
+    <!--================= Favicon =================-->
+    <link rel="apple-touch-icon" href="assets/images/fav.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <!--================= Bootstrap V5 CSS =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!--================= Font Awesome 5 CSS =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+    <!--================= RT Icons CSS =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/rt-icons.css">
+    <!--================= Animate css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <!--================= Magnific popup Plugin =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+    <!--================= Animate css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific.css">
+    <!--================= Animate css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
+    <!--================= Swiper Slider Plugin =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+    <!--================= Mobile Menu CSS =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/metisMenu.css">
+    <!--================= Main Menu CSS =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/rtsmenu.css">
+    <!--================= Main Stylesheet =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/variables/variable1.css">
+    <!--================= Main Stylesheet =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .social-links {
+        display: flex;
+        gap: 10px;
+    }
+    .social-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: #222; /* Dark background for contrast */
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .social-links a:hover {
+        background-color: #ff0000; /* Change color on hover */
+    }
+    
+    </style>
+</head>
+
+<body>
+    <!--================= Preloader Section Start Here =================-->
+    <div id="rts__preloader">
+        <div class="main-fader responsive-height-comments">
+            <div class="loader">
+                <svg viewBox="0 0 866 866" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.83 151.5">
+                        <path class="path-0"
+                            d="M117.24,69.24A8,8,0,0,0,115.67,67c-4.88-4-9.8-7.89-14.86-11.62A4.93,4.93,0,0,0,96.93,55c-5.76,1.89-11.4,4.17-17.18,6a4.36,4.36,0,0,0-3.42,4.12c-1,6.89-2.1,13.76-3,20.66a4,4,0,0,0,1,3.07c5.12,4.36,10.39,8.61,15.68,12.76a3.62,3.62,0,0,0,2.92.75c6.29-2.66,12.52-5.47,18.71-8.36a3.49,3.49,0,0,0,1.68-2.19c1.34-7.25,2.54-14.55,3.9-22.58Z"
+                            fill="#e41b23" />
+                        <path class="path-1"
+                            d="M97.55,38.68A43.76,43.76,0,0,1,98,33.44c.41-2.36-.5-3.57-2.57-4.64C91.1,26.59,87,24,82.66,21.82a6.18,6.18,0,0,0-4-.71C73.45,22.55,68.32,24.25,63.22,26c-3.63,1.21-6.08,3.35-5.76,7.69a26.67,26.67,0,0,1-.6,4.92c-1.08,8.06-1.08,8.08,5.86,11.92,3.95,2.19,7.82,5.75,11.94,6.08s8.76-2.41,13.12-3.93c9.33-3.29,9.33-3.3,9.78-14Z"
+                            fill="#e41b23" />
+                        <path class="path-2"
+                            d="M66.11,126.56c5.91-.91,11.37-1.7,16.81-2.71a3.3,3.3,0,0,0,1.87-2.17c1-4.06,1.73-8.19,2.84-12.24.54-2-.11-3-1.55-4.15-5-4-9.9-8.12-15-12a6.19,6.19,0,0,0-4.15-1.1c-5.35.66-10.7,1.54-16,2.54A4,4,0,0,0,48.34,97a109.13,109.13,0,0,0-3,12.19,4.47,4.47,0,0,0,1.34,3.6c5.54,4.36,11.23,8.53,16.91,12.69a10.84,10.84,0,0,0,2.57,1.11Z"
+                            fill="#e41b23" />
+                        <path class="path-3"
+                            d="M127.42,104.12c4.1-2.1,8-3.93,11.72-6a6,6,0,0,0,2.27-3,58.22,58.22,0,0,0,3.18-29.92c-.26-1.7-8-7.28-9.71-6.85A5,5,0,0,0,133,59.65c-2.81,2.49-5.71,4.88-8.33,7.56a9.46,9.46,0,0,0-2.47,4.4c-1.29,6.49-2.38,13-3.35,19.55a5.73,5.73,0,0,0,.83,3.91c2.31,3.08,5,5.88,7.7,9Z"
+                            fill="#e41b23" />
+                        <path class="path-4"
+                            d="M52.58,29.89c-2.15-.36-3.78-.54-5.39-.9-2.83-.64-4.92.1-7,2.32A64.1,64.1,0,0,0,26.09,54.64c-2.64,7.92-2.62,7.84,5.15,10.87,1.76.69,2.73.45,3.93-1C39.79,59,44.54,53.65,49.22,48.2a4.2,4.2,0,0,0,1.13-2c.8-5.32,1.49-10.68,2.24-16.34Z"
+                            fill="#e41b23" />
+                        <path class="path-5" fill="#e41b23"
+                            d="M23,68.13c0,2.51,0,4.7,0,6.87a60.49,60.49,0,0,0,9.75,32.15c1.37,2.13,6.4,3,7,1.2,1.55-5,2.68-10.2,3.82-15.34.13-.58-.58-1.38-.94-2.06-2.51-4.77-5.47-9.38-7.45-14.37C32.94,71,28.22,69.84,23,68.13Z" />
+                        <path class="path-6" fill="#e41b23"
+                            d="M83.91,12.86c-.32.36-.66.71-1,1.07.9,1.13,1.57,2.62,2.73,3.33,4.71,2.84,9.56,5.48,14.39,8.1a9.29,9.29,0,0,0,3.13.83c5.45.69,10.89,1.38,16.35,1.94a10.41,10.41,0,0,0,3.07-.71c-11.48-9.9-24.26-14.61-38.71-14.56Z" />
+                        <path class="path-7" fill="#e41b23"
+                            d="M66.28,132.51c13.36,3.78,25.62,3.5,38-.9C91.68,129.59,79.36,128,66.28,132.51Z" />
+                        <path class="path-8" fill="#e41b23"
+                            d="M127.2,30.66l-1.27.37a18.58,18.58,0,0,0,1,3.08c3,5.52,6.21,10.89,8.89,16.54,1.34,2.83,3.41,3.82,6.49,4.9a60.38,60.38,0,0,0-15.12-24.9Z" />
+                        <path class="bb-9" fill="#e41b23"
+                            d="M117.35,125c5.58-2.32,16.9-13.84,18.1-19.2-2.41,1.46-5.18,2.36-6.78,4.23-4.21,5-7.89,10.37-11.32,15Z" />
+                    </svg>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <!--================= Preloader End Here =================-->
+
+    <div class="anywere anywere-home"></div>
+
+    <!--================= Header Section Start Here =================-->
+    <header id="rtsHeader" class="rts-header1">
+        <div class="navbar-sticky">
+            <div class="navbar-part navbar-part1">
+                <div class="container">
+                    <div class="navbar-inner">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logooo (2).png" alt="sportius-logo"  height="120">
+                        </a>
+                        
+                        <a href="index.html" class="logo-sticky"><img src="assets/images/logooo (2).png" alt="sportius-logo"  height="120"></a>
+                        <div class="rts-menu">
+                            <nav class="menus menu-toggle">
+                                <ul class="nav__menu">
+                                    <li class="has-dropdown"><a class="menu-item" href="index.html">Home</a>
+                                        
+                                    </li>
+                                    <li><a class="menu-item  active1" href="about.html">About</a></li>
+                                 
+                                    <li><a class="menu-item" href="gallery.html">Gallery</a></li>
+                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header-action-items header-action-items1">
+                            <div class="search-part">
+                               
+                                <div class="search-input-area">
+                                    <div class="container">
+                                        <div class="search-input-inner">
+                                            <select class="custom-select select-hidden">
+                                                <option value="hide">All Catagorys</option>
+                                                <option value="all">All</option>
+                                                <option value="league">League</option>
+                                                <option value="club">Club</option>
+                                                <option value="team">Team</option>
+                                                <option value="player">Player</option>
+                                                <option value="match">Match</option>
+                                                <option value="score">Score</option>
+                                            </select>
+                                          
+                                            <div class="search-close-icon"><i class="rt-xmark"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart action-item">
+                              
+                            </div>
+                        </div>
+                        <a class="hamburger-menu aitem d-block">
+                            <div class="hamburger-menu-inner">
+                                <span></span>
+                                <span class=""></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+
+        <!--================= Slide Bar Start Here =================-->
+        <aside class="slide-bar">
+            <div class="offset-sidebar">
+                <button class="slide-bar-close ml--30"><i class="fal fa-times"></i></button>
+                <div class="offset-widget offset-logo mb-30">
+                    <a href="index.html">
+                        <img src="assets/images/logooo (2).png" alt="logo" alt="sportius-logo"  height="120">
+                    </a>
+                </div>
+            </div>
+            <!-- side-mobile-menu start -->
+            <nav class="side-mobile-menu side-mobile-menu1">
+                <ul id="mobile-menu-active">
+                    <li><a class="mm-link" href="index.html">HOME</a></li>
+                    <li><a class="mm-link" href="about.html">ABOUT</a></li>
+                  
+                      
+                        <li><a class="mm-link" href="gallery.html">GALLERY</a></li>
+                    <li><a class="mm-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- side-mobile-menu end -->
+            <div class="side-bar-social-links">
+                <a href="https://www.facebook.com/share/1DmZgrqeEn/?mibextid=wwXIfr" class="platform" style="color: white;">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/_thefinalthird?igsh=bjFiMjkzN2FiZmho&utm_source=qr" class="platform" style="color: white;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/_thefinalthirdd?s=21" class="platform" style="color: white;">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/cole-walker-1a9259307" class="platform" style="color: white;">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.tiktok.com/@_thefinalthird?_t=ZN-8txg1fjMBVe&_r=1" class="platform" style="color: white;">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://youtube.com/@thefinalthirdd?si=uUKm3yUQyHkJELDV" class="platform" style="color: white;">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </aside>
+        <!--================= Slide Bar Start Here =================-->
+        <!--================= Banner Section Start Here =================-->
+        <div class="banner banner1">
+            <div class="inner-page-banner banner-bg">
+                <div class="container">
+                    <div class="banner-content">
+                        <div class="page-path">
+                            <ul>
+                                <li><a class="home-page-link" href="index.html">Home</a></li>
+                                <li><a class="current-page" href="about.html">About Us</a></li>
+                            </ul>
+                        </div>
+                        <h1 class="banner-heading">ABOUT US</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--================= Banner Section End Here =================-->
+    </header>
+    <!--================= Header Section End Here =================-->
+
+
+    <!--================= About Section Start Here =================-->
+    <div class="rts-about-section  about section-gap">
+        <div class="container">
+            <div class="about-inner">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-12">
+                        <div class="about-thumb">
+                            <div class="img1"><img src="assets/images/gallery/img4.jpg" alt="about-thumb"></div>
+                            <div class="img2"><img src="assets/images/gallery/img5.jpg" alt="about-thumb"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <div class="contents">
+                            <div class="section-title-area section-title-area1 text-start">
+                                <h1 class="section-title"><span>ABOUT THE</span> <br>FINAL THIRD</h1>
+                                <p style="color: black;">At The Final Third, we believe every talented player deserves a chance to prove themselves on the right stage. Founded by an experienced professional who understands the challenges of breaking into professional football, our agency bridges the gap between aspiring athletes and life-changing opportunities. We connect players with trials at reputable clubs, providing guidance, exposure, and the support needed to make the most of every opportunity. Whether you’re looking for your first break or a second chance, The Final Third is here to help you take that final step toward your dream.</p>
+                            </div>
+                        
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="rts-champion-section">
+        <div class="player-image"><img src="assets/images/about/player2.png" alt=""></div>
+        <div class="container">
+            <div class="top-wrap">
+                <div class="filter-button-group">
+                    <a href="mailto:colewalker0914@gmail.com" target="_blank">
+                    <button class="filter-btn">
+                       
+                            <i class="fa-solid fa-envelope"></i>
+                        
+                    </button>
+                    </a>
+                    <a href="https://wa.me/17604480399" target="_blank">
+                    <button class="filter-btn">
+                        
+                            <i class="fa-brands fa-whatsapp"></i>
+                        
+                    </button>
+                    </a>
+                    <a href="https://www.instagram.com/colewwalkerr?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr" target="_blank">
+                    <button class="filter-btn">
+                       
+                            <i class="fa-brands fa-instagram"></i>
+                        
+                    </button>
+                </a>
+                <a href="https://www.facebook.com/share/14efXR6BdQ/?mibextid=wwXIfr" target="_blank">
+                    <button class="filter-btn">
+                       
+                            <i class="fa-brands fa-facebook"></i>
+                        
+                    </button>
+                </a>
+
+                <a href="https://x.com/colewwalkerr?s=21" target="_blank">
+                    <button class="filter-btn">
+                       
+                            <i class="fa-brands fa-x-twitter"></i>
+                        
+                    </button>
+                </a>
+                <a href="https://www.tiktok.com/@colewwalkerr?_t=ZP-8txg1bxQaCd&_r=1" target="_blank">
+                    <button class="filter-btn">
+                      
+                            <i class="fa-brands fa-tiktok"></i>
+                        
+                    </button>
+                </a>
+                <a href="https://youtube.com/@colewwalkerr?si=PeS01qkr2U2-Xu5F" target="_blank">
+                    <button class="filter-btn">
+                   
+                            <i class="fa-brands fa-youtube"></i>
+                       
+                    </button>
+                </a>
+                </div>
+                
+                <!-- Add Font Awesome for icons -->
+              
+                
+            </div>
+            <div class="champion-details filterd-items yr90">
+                <div class="contents">
+                    <h1 class="details-title">Founder and CEO</h1>
+                    <p class="p1" style="color: black;">“Born and raised in San Diego, I grew up chasing the dream of playing professional football. I know firsthand how difficult it can be to get the right opportunities, no matter how much talent or dedication you have. That’s why I founded The Final Third—to give players from all over the world a real chance to prove themselves. I’ve been in their shoes, and I understand what it takes to succeed. Our mission is to connect hardworking athletes with professional trials and provide the guidance they need to take their game to the next level. My dream is to help others achieve theirs."
+                      </p>
+                        <BR>
+                      <p> <b>  — Cole Walker, Founder & CEO </b></p>
+
+                  
+                </div>
+                <div class="details-video">
+                    <div class="video-thumb"><img src="assets/images/about/video1.jpeg" alt="video-thumb">
+                      
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <div class="rts-testimonials-section section-gap bg-light">
+        <div class="container">
+            <div class="section-title-area text-center mb-5">
+                <span class="pretitle text-uppercase text-primary">Testimonials</span>
+                <h1 class="section-title font-weight-bold">What Our Clients Say</h1>
+                <p class="text-muted">See how we’ve helped players take their careers to the next level.</p>
+            </div>
+            <div class="testimonials-slider swiper rts-brandSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-single p-4 shadow rounded bg-white">
+                            <div class="testimonial-content text-center">
+                                <p class="text-dark fst-italic">"Working with Cole and his team completely changed my career. They helped me secure a contract in Europe, guided me through the entire process, and always had my best interests at heart. I wouldn’t be where I am today without them."
+                                    "This agency isn’t just about contracts and deals—it’s about real support. Cole made sure I was in the right environment to grow as a player and as a person. They truly care about their players."</p>
+                                    <h4 class="mt-3 text-primary">- Mario Schwartz</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-single p-4 shadow rounded bg-white">
+                            <div class="testimonial-content text-center">
+                                <p class="text-dark fst-italic">"From day one, they believed in me. They helped me navigate trials, secure a great club, and gave me all the resources I needed to succeed. If you’re serious about making it in football, this is the agency to work with."
+                                    "I was struggling to find the right opportunity, but Cole and his team opened doors I never thought possible. They connected me with the right people, negotiated a great deal, and always kept it 100% real with me."</p>
+                                    <h4 class="mt-3 text-primary">- Julien Berc</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-single p-4 shadow rounded bg-white">
+                            <div class="testimonial-content text-center">
+                                <p class="text-dark fst-italic">"Not only did they help me get a contract, but they also made sure I had everything I needed off the field—housing, training, and even language support. They go beyond just being agents; they’re mentors."</p>
+                                <h4 class="mt-3 text-primary">- Jamal Yagheta</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-single p-4 shadow rounded bg-white">
+                            <div class="testimonial-content text-center">
+                                <p class="text-dark fst-italic">"I had offers before, but Cole helped me find the right fit for my playing style and career goals. Now, I’m playing in a league I love, growing every day, and I couldn’t be happier."</p>
+                                <h4 class="mt-3 text-primary">- Samuel Ricardo</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-single p-4 shadow rounded bg-white">
+                            <div class="testimonial-content text-center">
+                                <p class="text-dark fst-italic">"Most agencies just see players as business opportunities, but this one sees players as people. They genuinely care, and that’s what makes the difference."</p>
+                                <h4 class="mt-3 text-primary">- Rick Jonas</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="footer footer1">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="footer-widget">
+                            <div class="footer-logo"> 
+                            </div>
+                            <p class="footer-text">At The Final Third, we connect talented players with top club trials, guiding them to seize life-changing opportunities.
+                            </p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title"><span class="decorator"></span> Quick LINKS</h3>
+                            <ul class="widget-items cata-widget">
+                                <li class="widget-list-item"><a href="index.html">Home</a></li>
+                                <li class="widget-list-item"><a href="about.html">About</a></li>
+                                <li class="widget-list-item"><a href="contact.html">CONTACTS</a></li>
+                          
+                                <li class="widget-list-item"><a href="gallery.html">GALLERY</a></li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="footer-widget address-widget">
+                            <h3 class="footer-widget-title"><span class="decorator"></span> GET IN TOUCH</h3>
+                            <ul>
+                                <li class="widget-list-item"><a
+                                        href="mailto:tthefinalthirdd@gmail.com">tthefinalthirdd@gmail.com</a></li>
+                                <li class="widget-list-item" ><a href="tel:+1 760
+                                    448
+                                    0399">+1 760
+                                    448
+                                    0399</a></li>
+                                <li class="widget-list-item"> <span> CALIFORNIA , USA
+                                        <br>
+                                        </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="footer-widget news-widget">
+                            <h3 class="footer-widget-title"><span class="decorator"></span> POST GALLERY</h3>
+                            <div class="recent-post">
+                                <div class="picture">
+                                    
+                                        <img src="assets/images/footer/news1.jpg" alt="side-post-image">
+                                    
+                                </div>
+                                <div class="picture">
+                                    
+                                        <img src="assets/images/footer/news2.jpg" alt="side-post-image">
+                                 
+                                </div>
+                                <div class="picture">
+                                   
+                                        <img src="assets/images/footer/news3.jpg" alt="side-post-image">
+                                  
+                                </div>
+                            </div>
+                            <div class="recent-post post2">
+                                <div class="picture">
+                                 
+                                        <img src="assets/images/footer/news4.jpg" alt="side-post-image">
+                                  
+                                </div>
+                                <div class="picture">
+                              
+                                        <img src="assets/images/footer/news5.jpg" alt="side-post-image">
+                             
+                                </div>
+                                <div class="picture">
+                                
+                                        <img src="assets/images/footer/news6.jpg" alt="side-post-image">
+                           
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <!--================= Footer End Here =================-->
+
+
+    <!--================= Scroll to Top Start =================-->
+    <div class="scroll-top-btn scroll-top-btn1" style="color: white;"><i class="fas fa-angle-up arrow-up"></i><i
+            class="fas fa-circle-notch"></i></div>
+    <!--================= Scroll to Top End =================-->
+
+    <!--================= Jquery latest version =================-->
+    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <!--================= Bootstrap latest version =================-->
+    <script src="assets/js/vendors/bootstrap.min.js"></script>
+    <!--================= Wow.js =================-->
+    <script src="assets/js/vendors/wow.min.js"></script>
+    <!--================= Swiper Slider =================-->
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <!--================= Zoom Plugin =================-->
+    <script src="assets/js/vendors/zoom.js"></script>
+    <!--================= metisMenu Plugin =================-->
+    <script src="assets/js/vendors/metisMenu.min.js"></script>
+    <!--================= counter up Plugin =================-->
+    <script src="assets/js/vendors/jquery.counterup.min.js"></script>
+    <!--================= Main Menu Plugin =================-->
+    <script src="assets/js/vendors/rtsmenu.js"></script>
+    <!--================= Mobile Menu Plugin =================-->
+    <script src="assets/js/vendors/metisMenu.min.js"></script>
+    <!--================= Magnefic Popup Plugin =================-->
+    <script src="assets/js/vendors/isotope.pkgd.min.js"></script>
+    <!--================= Magnefic Popup Plugin =================-->
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <!--================= Main Script =================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
